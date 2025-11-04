@@ -1,0 +1,63 @@
+:root {
+    --primary-bg-color: #1F2536;
+    --red: #971818;
+    --dark-green: #374A04;
+    --yeallow: #FFDD00;
+    --orange: #FF9D00;
+    --black: #000000;
+    --dark-gray: #A7A7A7;
+    --light-gray: #E3E7F2;
+}
+
+body {
+    margin: 0;
+    background-color: var(--primary-bg-color);
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Road Rage", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+p {
+    font-family: "Brawler", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+p.thick {
+    font-weight: 700; /* Bold */
+}
+
+a {
+    font-family: "Road Rage", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--yeallow);
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    background-color: var(--primary-bg-color);
+    box-shadow: 0 2px 2px #0000005a;
+    height: 15vh;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 3rem;
+}
