@@ -47,17 +47,32 @@ a {
     font-size: 1.5rem;
 }
 
-ul {
+ul, nav {
     list-style-type: none;
+    display: none;
 }
 
 header {
-    background-color: var(--primary-bg-color);
+    background-color: var(--red);
     box-shadow: 0 2px 2px #0000005a;
     height: 15vh;
+    padding-top: 2rem;
+    text-align: center;    
 }
 
-.logo {
-    text-align: center;
-    margin-top: 3rem;
+.logo img {
+    width: 316px;
+    height: 121px;
+}
+
+@media screen and (min-width: 500px) {
+    .logo img {
+        width: 490px;
+        height: 136px;
+    }
+
+    header {
+        width: auto;
+        height: 200px;
+    }
 }

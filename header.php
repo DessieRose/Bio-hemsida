@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="components/phone/logo_phone.png" alt="The-big-scream logo">
+            <img src="components/logo.png" alt="The-big-scream logo">
         </div>
         <nav>
             <ul>
@@ -22,12 +22,4 @@
             </ul>
         </nav>
     </header>
-    <main>
 
-        <h2>hello</h2>
-
-    </main>
-    
-    
-</body>
-</html>
