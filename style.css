@@ -37,6 +37,7 @@ p {
 
 p.thick {
     font-weight: 700; /* Bold */
+    margin: 0;
 }
 
 a {
@@ -52,6 +53,8 @@ ul, nav {
     display: none;
 }
 
+
+/* --- Header style --- */
 header {
     background-color: var(--red);
     box-shadow: 0 2px 2px #0000005a;
@@ -60,10 +63,109 @@ header {
     text-align: center;    
 }
 
+.offer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--orange);
+    color: var(--black);
+    height: 40px;
+}
+
 .logo img {
     width: 316px;
     height: 121px;
 }
+
+.menu {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: auto;
+    height: 78px;
+    background-color: var(--red);
+    box-shadow: 0 0 4px 4px #0000005a;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container-menu-text {
+    display: grid;
+    grid-template-columns: auto;
+    color: var(--yeallow);
+    background-color: var(--red);
+    border: none;
+}
+
+.container-menu-text img {
+    margin: 0 0 0 5px;
+
+}
+
+.menu-text {
+    color: var(--yeallow);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* --- Switch Container --- */
+.switch {
+    position: relative;
+    top: 1rem;
+    left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--light-gray);
+    border-radius: 40px;
+    width: 106px;
+    height: 38px;
+    /* padding: 0 10px; */
+    border: 3px solid var(--black);
+}
+
+/* Hide actual radio buttons */
+.switch input {
+    display: none;
+}
+
+/* --- Labels act as buttons --- */
+.switch label {
+    flex: 1;
+    text-align: center;
+    font-size: 1.8rem;
+    cursor: pointer;
+    z-index: 2;
+}
+
+/* --- Sliding knob --- */
+.slider {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    /* background: white; */
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* --- Position based on checked input --- */
+#moon:checked ~ .slider {
+    transform: translateX(0);
+    background: #1f2536c9;
+}
+#pumpkin:checked ~ .slider {
+    transform: translateX(34px);
+    background: var(--orange);
+}
+#tree:checked ~ .slider {
+    transform: translateX(68px);
+    background: var(--dark-green);
+}
+
 
 @media screen and (min-width: 500px) {
     .logo img {
