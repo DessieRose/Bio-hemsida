@@ -3,9 +3,9 @@
 ?>
 
     <main>
-
-        
-
+        <div class="heroimage">
+            <img src="/components/heroimage.png" alt="hero-image">
+        </div>
     </main>
     
     

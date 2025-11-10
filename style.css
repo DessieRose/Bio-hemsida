@@ -69,6 +69,8 @@ li {
 }
 
 .offer {
+    position: relative;
+    z-index: 5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,6 +82,16 @@ li {
 .logo img {
     width: 316px;
     height: 121px;
+}
+
+.offer, header, nav {
+    z-index: 10;
+}
+
+.heroimage img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
 }
 
 /* --- Hidden menu --- */

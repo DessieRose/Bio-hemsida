@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&family=Creepster&family=Road+Rage&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="headerStyle.css">
     <link rel="stylesheet" href="style.css">
     <title>The Big Scream</title>
 </head>
@@ -36,16 +35,16 @@
                 </div>
             </div>
         </nav>
-        <section class="offer">
-            <div>
-                <p class="thick">Use offercode: SPOOKY30 at checkout</p>
-            </div>
-        </section>
+        <div class="offer">
+            <p class="thick">Use offercode: SPOOKY30 at checkout</p>
+        </div>
+
         <!-- Fixed bottom bar -->
         <div class="menu">
             <div class="shopping-cart">
                 <img src="components/icons/cart.svg" alt="shopping-cart"><h3 class="cart-count">0 </h3>
             </div>
+
             <!-- Rounded switch -->
             <div class="switch">
                 <input type="radio" name="theme" id="moon" checked>
