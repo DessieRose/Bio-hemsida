@@ -15,6 +15,10 @@ require_once __DIR__ . "/data.php";
                     <a href="movie page.php">
                         <img class="movieroll" src="/components/single movie frame.svg">
                         <img class="poster" src="<?= $movie['poster'] ?>">
+                        <div class="hidden-info">
+                            <p><?= $movie['hover-info'] ?></p>
+                            <p class="read-more">Read more</p>
+                        </div>
                         <p class="title"><?= $movie['title'] ?></p>
                     </a>
                 </div>
@@ -29,20 +33,14 @@ require_once __DIR__ . "/data.php";
                 <div class="movie-container">
                     <img class="movieroll" src="/components/single movie frame.svg">
                     <img class="poster" src="<?= $movie['poster'] ?>">
+                    <div class="hidden-info">
+                        <p class="hover-info"><?= $movie['hover-info'] ?></p>
+                        <p class="read-more">Read more</p>
+                    </div>
                     <p class="title"><?= $movie['title'] ?></p>
                 </div>
             <?php } ?>
             <a class="see-more">See more</a>
-        </div>
-    </section>
-    <section class="offer">
-        <div class="offer-top">
-            <h3>Halloween offer!</h3>
-        </div>
-        <div class="offer-bottom">
-            <p>Get 30% off all tickets this halloween!</p>
-            <p>Valid for all new tickets purchased between October 20th and November 10th</p>
-            <p>Use offercode: <a>SPOOKY30</a> at checkout.</p>
         </div>
     </section>
 

@@ -101,17 +101,38 @@ header {
     transform: translateX(-50%);
 }
 .poster{
-    max-width: 80%;
-    min-height: 68%;
+    width: 80%;
+    height: 68%;
     top: 10%;
-    z-index: -1;
+    z-index: -2;
 }
+.hidden-info{
+    position: absolute;
+    left: 12%;
+    top: 10.5%;
+    opacity: 0;
+    width: 65%;
+    height: 61%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0.3em;
+}
+.read-more{
+    text-decoration: underline;
+    font-family: "Brawler" serif;
+}
+
 .title{
     z-index: 1;
     text-align: center;
     bottom: 7%;
     width: 80%;
 }
+
 .see-more{
     margin: 1rem;
     font-family: "Brawler", serif;
@@ -119,7 +140,7 @@ header {
     text-decoration: underline;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
     .logo img {
         width: 490px;
         height: 136px;
@@ -137,7 +158,18 @@ header {
         align-self: flex-end;
     }
     .movies-container :nth-last-child(5){
-    display: block;
-}
+        display: block;
+    }
+    .hidden-info:hover {
+        opacity: 1;
+        visibility: visible;
+        transition: opacity ease 0.3s;
+        background-color: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(5px);
+        border-radius: 0.5em;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
 
 }
+
