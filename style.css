@@ -1,6 +1,7 @@
 :root {
     --primary-bg-color: #1F2536;
     --red: #971818;
+    --dark-red: #6E1E1E;
     --dark-green: #374A04;
     --yeallow: #FFDD00;
     --orange: #FF9D00;
@@ -15,6 +16,8 @@
 body {
     margin: 0;
     background-color: var(--primary-bg-color);
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 h2 {
@@ -43,6 +46,7 @@ p {
 
 p.thick {
     font-weight: 700; /* Bold */
+    margin: 0;
 }
 
 a {
@@ -51,34 +55,25 @@ a {
     text-decoration: none;
     color: var(--yeallow);
     font-size: 1.5rem;
+    display: block;
 }
 
-ul, nav {
-    list-style-type: none;
-    display: none;
+ul {
+    padding: 0;
+    margin: 0;
 }
 
-header {
-    background-color: var(--red);
-    box-shadow: 0 2px 2px #0000005a;
-    height: 15vh;
-    padding-top: 2rem;
-    text-align: center;    
+li {
+    list-style: none;
 }
 
-.logo img {
-    width: 316px;
-    height: 121px;
+/* ---- Hero Image ---- */
+.heroimage img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
 }
-.hero-container{
-    width: 100%;
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-}
-.hero-image{
-    width: 100%;
-}
+
 .movies-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -167,14 +162,6 @@ header {
 
 
 @media screen and (min-width: 600px) {
-    .logo img {
-        width: 490px;
-        height: 136px;
-    }
-    header {
-        width: auto;
-        height: 200px;
-    }
     .movies-container{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
