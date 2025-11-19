@@ -1,6 +1,7 @@
 :root {
     --primary-bg-color: #1F2536;
     --red: #971818;
+    --dark-red: #6E1E1E;
     --dark-green: #374A04;
     --yeallow: #FFDD00;
     --orange: #FF9D00;
@@ -15,6 +16,8 @@
 body {
     margin: 0;
     background-color: var(--primary-bg-color);
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 h2 {
@@ -43,6 +46,7 @@ p {
 
 p.thick {
     font-weight: 700; /* Bold */
+    margin: 0;
 }
 
 a {
@@ -51,24 +55,16 @@ a {
     text-decoration: none;
     color: var(--yeallow);
     font-size: 1.5rem;
+    display: block;
 }
 
-ul, nav {
-    list-style-type: none;
-    display: none;
+ul {
+    padding: 0;
+    margin: 0;
 }
 
-header {
-    background-color: var(--red);
-    box-shadow: 0 2px 2px #0000005a;
-    height: 15vh;
-    padding-top: 2rem;
-    text-align: center;    
-}
-
-.logo img {
-    width: 316px;
-    height: 121px;
+li {
+    list-style: none;
 }
 .hero-container{
     width: 100%;
@@ -138,6 +134,14 @@ header {
     font-family: "Brawler", serif;
     font-size: 1.2rem;
     text-decoration: underline;
+}
+
+
+/* ---- Hero Image ---- */
+.heroimage img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
 }
 
 @media screen and (min-width: 600px) {
