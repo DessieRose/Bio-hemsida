@@ -66,15 +66,14 @@ ul {
 li {
     list-style: none;
 }
-.hero-container{
-    width: 100%;
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
+
+/* ---- Hero Image ---- */
+.heroimage img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
 }
-.hero-image{
-    width: 100%;
-}
+
 .movies-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -137,22 +136,7 @@ li {
 }
 
 
-/* ---- Hero Image ---- */
-.heroimage img {
-    position: relative;
-    max-width: 100%;
-    height: auto;
-}
-
 @media screen and (min-width: 600px) {
-    .logo img {
-        width: 490px;
-        height: 136px;
-    }
-    header {
-        width: auto;
-        height: 200px;
-    }
     .movies-container{
         display: grid;
         grid-template-columns: repeat(5, 1fr);

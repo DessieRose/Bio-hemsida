@@ -37,10 +37,7 @@
                 <a href="#">Movies</a>
                 <a href="#">Upcoming</a>
             </nav>
-
-            <!-- Logo -->
-            <!-- <div class="logo"><img src="/components/logo.png" alt="logo"></div> -->
-            
+ 
             <!-- Right nav + cart -->
              <!-- <div class="nav-desktop-right"> -->
             <nav class="nav-desktop-right">

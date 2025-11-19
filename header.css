@@ -175,10 +175,13 @@
   align-items: center;
   justify-content: center;
   background-color: var(--orange);
-  color: var(--black);
   height: 2rem;
   width: 100%;
   bottom: 0;
+}
+
+.offer p {
+  color: var(--black);
 }
   
 /* --- Shopping cart button --- */

@@ -4,8 +4,8 @@ require_once __DIR__ . "/data.php";
 ?>
 
 <main>
-    <div class="hero-container">
-        <img class="hero-image" src="/components/heroimage.png" alt="Horror themed hero image.">
+    <div class="heroimage">
+        <img src="/components/heroimage.png" alt="Horror themed hero image.">
     </div>
     <section class="movies">
         <h3>Movies</h3>
