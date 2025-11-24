@@ -47,10 +47,10 @@
             </nav>
             <!-- </div> -->
         </div>
-        <div class="offer">
-            <p class="thick">Use offercode: SPOOKY30 at checkout</p>
-        </div>
     </header>
+    <div class="offer">
+        <p class="thick">Use offercode: SPOOKY30 at checkout</p>
+    </div>
             
     <!-- Mobile bottom nav -->
     <div class="nav-mobile">
