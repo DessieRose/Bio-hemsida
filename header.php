@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="./footer.css">
     <title>The Big Scream</title>
 </head>
+
 <body>
     <header class="site-header">
         <!-- Logo -->
@@ -38,9 +40,9 @@
                 <a href="#">Movies</a>
                 <a href="#">Upcoming</a>
             </nav>
- 
+
             <!-- Right nav + cart -->
-             <!-- <div class="nav-desktop-right"> -->
+            <!-- <div class="nav-desktop-right"> -->
             <nav class="nav-desktop-right">
                 <a href="#">Experience</a>
                 <a href="#">Tickets</a>
@@ -84,7 +86,7 @@
             <img src="./components/icons/avatar.svg" alt="avatar" class="avatar">
             <span class="sign-in">Sign in</span>
         </div>
-        
+
         <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="#">Movies</a></li>

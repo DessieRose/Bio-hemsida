@@ -13,28 +13,58 @@ foreach ($movies as $movie) {
 ?>
 
 <main>
-    <section class="movie-info">
+    <section class="movie-detail">
 
-        <iframe width=100% height=250px src="<?= $selectedMovie['trailer'] ?>" frameborder="0"></iframe>"
+        <iframe class="trailer" src="<?= $selectedMovie['trailer'] ?>" frameborder="0"></iframe>"
 
         <?php
         if ($selectedMovie) { ?>
-            <div class="picture-wrapper">
-                <?php foreach ($selectedMovie['media'] as $picture) { ?>
-                    <div class="picture-containers">
-                        <img class="picture" src="<?= $picture ?>">
+            <section class="padding">
+                <div class="genre-wrapper">
+                    <div class="rated-box">
+                        <p class="rated"><?= $selectedMovie['rated'] ?></p>
                     </div>
-                <?php } ?>
-            </div>
-            <h3><?= $selectedMovie['title'] ?></h3>
-            <p><?= $selectedMovie['synopsis'] ?></p>
-            <p>Lead Actors:</p>
-            <ul class="actor-list">
-                <?php foreach ($selectedMovie['actors'] as $actor) {
-                ?> <li class="actor"><?= $actor ?></li>
-                <?php } ?>
-            </ul>
-        <?php } ?>
+                    <div class="genres">
+                        <?php foreach ($selectedMovie['genres'] as $genre) { ?>
+                            <div class="genre-box">
+                                <p class="genre"><?= $genre ?></p>
+                            </div>
+                        <?php
+                        } ?>
+                    </div>
+                </div>
+                <h3 class="title-page"><?= $selectedMovie['title'] ?></h3>
+                <div class="main-wrapper">
+                    <p class="synopsis"><?= $selectedMovie['synopsis'] ?></p>
+
+                    <div class="actor-director-wrapper">
+                        <div class="actor-box">
+                            <p>Actors:</p>
+                            <ul class="actor-list">
+                                <?php foreach ($selectedMovie['actors'] as $actor) {
+                                ?> <li class="actor"><?= $actor ?></li>
+                                <?php } ?>
+                            </ul>
+                        </div>
+
+                        <div class="director-box">
+                            <p>Director:</p>
+                            <p><?= $selectedMovie['director'] ?></p>
+                            <p>Runtime:</p>
+                            <p>1h 22m</p>
+                        </div>
+                    <?php } ?>
+                    </div>
+                </div>
+
+                <div class="picture-wrapper">
+                    <?php foreach ($selectedMovie['media'] as $picture) { ?>
+                        <div class="picture-containers">
+                            <img class="picture" src="<?= $picture ?>">
+                        </div>
+                    <?php } ?>
+                </div>
+            </section>
     </section>
 
 </main>
