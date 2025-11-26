@@ -169,15 +169,12 @@
 
 /* ---- Header offer ---- */
 .offer {
-  position: absolute;
-  z-index: 5;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--orange);
   height: 2rem;
   width: 100%;
-  bottom: 0;
 }
 
 .offer p {

@@ -21,7 +21,7 @@ $movies = [
         "year" => 2007,
         "rated" => "11",
         "director" => "Michael Dougherty",
-        "genre" => ["Dark comedy", "Slasher horror"],
+        "genres" => ["Dark comedy", "Slasher horror", "Monster horror"],
         "poster" => "/components/movies/trick r treat.jpg",
         "hover-info" => "Four intertwined stories that all take place on Halloween in a small town where the residents discover that ghosts may actually exist.",
         "synopsis" => "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
@@ -32,7 +32,7 @@ $movies = [
             "/media/trick/3.png",
             "/media/trick/4.png",
         ],
-        "actors" => ["Dylan Baker", "Rochelle Aytes", "Quinn Lord"],
+        "actors" => ["Dylan Baker", "Rochelle Aytes", "Quinn Lord", "Brett Kelly", "Isabelle Deluce"],
     ],
     [
         "id" => 3,

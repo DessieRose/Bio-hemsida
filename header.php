@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="header.css">
     <title>The Big Scream</title>
 </head>
+
 <body>
     <header class="site-header">
         <!-- Logo -->
@@ -16,8 +18,8 @@
         <!-- ROW 1 -->
         <div class="header-top">
             <div class="location">
-                <img class="location-icon" src="/components/icons/location.svg" alt="location"> 
-                Location 
+                <img class="location-icon" src="/components/icons/location.svg" alt="location">
+                Location
                 <img class="arrow-down" src="/components/icons/arrow-down.svg" alt="arrow-down">
             </div>
 
@@ -37,9 +39,9 @@
                 <a href="#">Movies</a>
                 <a href="#">Upcoming</a>
             </nav>
- 
+
             <!-- Right nav + cart -->
-             <!-- <div class="nav-desktop-right"> -->
+            <!-- <div class="nav-desktop-right"> -->
             <nav class="nav-desktop-right">
                 <a href="#">Experience</a>
                 <a href="#">Tickets</a>
@@ -47,15 +49,16 @@
             </nav>
             <!-- </div> -->
         </div>
-        <div class="offer">
-            <p class="thick">Use offercode: SPOOKY30 at checkout</p>
-        </div>
     </header>
-            
+    <div class="offer">
+        <p class="thick">Use offercode: SPOOKY30 at checkout</p>
+    </div>
+
     <!-- Mobile bottom nav -->
     <div class="nav-mobile">
         <div class="shopping-cart">
-            <img src="components/icons/cart.svg" alt="shopping-cart"><h3 class="cart-count">0 </h3>
+            <img src="components/icons/cart.svg" alt="shopping-cart">
+            <h3 class="cart-count">0 </h3>
         </div>
 
         <!-- Rounded switch -->
@@ -83,7 +86,7 @@
             <img src="components/icons/avatar.svg" alt="avatar" class="avatar">
             <span class="sign-in">Sign in</span>
         </div>
-        
+
         <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="#">Movies</a></li>

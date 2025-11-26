@@ -16,7 +16,7 @@ require_once __DIR__ . "/data.php";
                         <img class="movieroll" src="/components/single movie frame.svg">
                         <img class="poster" src="<?= $movie['poster'] ?>">
                         <div class="hidden-info">
-                            <p><?= $movie['hover-info'] ?></p>
+                            <p class="hover-info"><?= $movie['hover-info'] ?></p>
                             <p class="read-more">Read more</p>
                         </div>
                         <p class="title"><?= $movie['title'] ?></p>
