@@ -41,8 +41,8 @@
   background: var(--red);
   display: flex;
   justify-content: space-evenly;
-  /* padding: 0.8rem 0; */
   align-items: center;
+  z-index: 2;
 }
 
 /* Hide desktop nav on mobile */
@@ -207,8 +207,8 @@
   align-items: center;
   background: var(--light-gray);
   border-radius: 40px;
-  width: 106px;
-  height: 38px;
+  width: 112px;
+  height: 44px;
   border: 3px solid var(--black);
 }
 
