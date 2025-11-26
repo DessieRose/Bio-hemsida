@@ -34,7 +34,7 @@
 
             <!-- Left nav -->
             <nav class="nav-desktop-left">
-                <a href="#">Home</a>
+                <a href="./index.php">Home</a>
                 <a href="#">Movies</a>
                 <a href="#">Upcoming</a>
             </nav>
