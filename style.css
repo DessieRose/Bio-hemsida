@@ -135,6 +135,31 @@ li {
     text-decoration: underline;
 }
 
+/*Movie page style*/
+
+.picture-wrapper{
+    display: flex;
+    overflow: auto;
+	white-space: nowrap;
+}
+
+::-webkit-scrollbar{
+	display: none;
+}
+
+.picture-containers{
+    height: 200px;
+    object-fit:scale-down;
+}
+.picture{
+    height: 100%;
+}
+
+.actor-list, .actor{
+    display: block;
+    color: var(--yeallow);
+}
+
 
 @media screen and (min-width: 600px) {
     .movies-container{

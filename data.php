@@ -18,14 +18,20 @@ $movies = [
         "id" => 2,
         "title" => "Trick r' Treat",
         "year" => 2007,
-        "rated" => "R",
+        "rated" => "11",
         "director" => "Michael Dougherty",
-        "genre" => "Dark comedy, Monster horror",
+        "genre" => ["Dark comedy", "Slasher horror"],
         "poster" => "/components/movies/trick r treat.jpg",
-        "hover-info" => "Hovering here for some info",
+        "hover-info" => "Four intertwined stories that all take place on Halloween in a small town where the residents discover that ghosts may actually exist.",
         "synopsis" => "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
-        "trailer" => "",
-        "media" => []
+        "trailer" => "https://www.youtube.com/embed/AoBx7F-q2CA?autoplay=1&mute=1&controls=0",
+        "media" => [
+            "/media/trick/1.png",
+            "/media/trick/2.png",
+            "/media/trick/3.png",
+            "/media/trick/4.png",
+        ],
+        "actors" => ["Dylan Baker", "Rochelle Aytes", "Quinn Lord"],
     ],
     [
         "id" => 3,
@@ -38,7 +44,8 @@ $movies = [
         "hover-info" => "Hovering here for some info",
         "synopsis" => "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
         "trailer" => "",
-        "media" => []
+        "media" => [],
+        "actors" => []
     ],
     [
         "id" => 4,
@@ -51,7 +58,8 @@ $movies = [
         "hover-info" => "Hovering here for some info",
         "synopsis" => "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
         "trailer" => "",
-        "media" => []
+        "media" => [],
+        "actors" => []
     ],
     [
         "id" => 5,
@@ -64,6 +72,7 @@ $movies = [
         "hover-info" => "Hovering here for some info",
         "synopsis" => "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
         "trailer" => "",
-        "media" => []
+        "media" => [],
+        "actors" => []
     ],
 ];
