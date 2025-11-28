@@ -169,6 +169,7 @@ li {
 }
 .padding{
     padding: 1rem;
+    padding-top: 0;
 }
 .genre-wrapper, .genres, .genre-box, .rated-box, .actor-director-wrapper{
     display: flex;
@@ -177,7 +178,6 @@ li {
 
 .genre-wrapper{
     width: 100%;
-    justify-content: space-between;
 }
 .rated-box{
     border: 1px solid var(--yeallow);
@@ -191,6 +191,7 @@ li {
     margin: 0;
 }
 .genres{
+    padding-left: 1rem;
     gap: 1rem;
     
 }
@@ -203,16 +204,24 @@ li {
 }
 .genre{
     color: var(--primary-bg-color);
-    font-size: 14px;
+    font-size: 12px;
+    margin: 0;
 }
-.title-page{
-    margin-top: 2rem;
+.genre-wrapper{
+    padding-bottom: 1rem;
 }
+
 .synopsis{
     padding: 1rem;
 }
 
-.actor-list, .actor{
+.list-header{
+    font-family: "Road Rage", sans-serif;
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.actor-list, .actor, .list{
     display: block;
     color: var(--yeallow);
 }
@@ -260,14 +269,24 @@ li {
     .trailer{
         height: 60vh;
     }
+    .main-wrapper, .title-page{
+        padding-left: 3rem;
+    }
+
+    .genre{
+        font-size: 1rem;
+    }
+
     .genre-wrapper{
         justify-content: flex-start;
         gap: 2rem;
+        padding: 1rem 1rem 1rem 4rem;
+        
     }
     .main-wrapper{
         display: flex;
         gap: 5rem;
-        padding-bottom: 5rem;
+        padding: 0 5rem 5rem 3rem;
     }
     .actor-director-wrapper{
         flex-direction: column;
