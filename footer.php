@@ -34,7 +34,6 @@
 </section>
 
 
-
 <div class="newsletter">
     <h4>
         Never miss anything new!<br>
