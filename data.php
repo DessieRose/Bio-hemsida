@@ -15,7 +15,7 @@ $movies = [
             "As suspicion and grief spread, a teacher (suspended and shamed), a desperate father of one missing child, a troubled cop, and others begin investigating — only to discover the horrifying truth: a reclusive relative named Gladys is behind it all. Through ritualistic witchcraft involving hair, sticks, and personal items, Gladys enchants Alex’s classmates and traps them in a basement to feed on their life force and prolong her own life.",
             "In the climax, Alex — forced into aiding Gladys — finally turns her own spell against her. The children break free, hunt down Gladys en masse, and tear her apart. The missing kids are rescued; though traumatized, some begin to recover.",
             "At its core, “Weapons” transforms an uncanny school-disappearance mystery into a chilling witch-craft horror, using its fragmented, multi-perspective story structure to slowly reveal the real terror hidden beneath suburban normality.",
-    ],
+        ],
         "trailer" => "https://www.youtube.com/watch?v=OpThntO9ixc",
         "actors" => ["Scarlett Sher", "Julia Garner", "Cary Christopher"],
         "media" => [
@@ -37,7 +37,6 @@ $movies = [
         "synopsis" => [
             "Five Halloween stories: A principal has a secret life, a virgin is looking for her first time, a group of kids pull a prank, a woman who loathes Halloween does not respect the rules and a mean old man meets a demonic trick-or-treater.",
             "Set on Halloween night in a small American town, Trick ’r Treat weaves together four interlocking stories that explore the dark, twisted side of the holiday. The tales range from a school principal with a deadly secret, to a group of teenagers encountering a vengeful spirit, to a couple who discovers that one child is far more sinister than they expected, and to a mysterious stranger who enforces Halloween traditions with brutal efficiency. Central to the film is Sam, a pint-sized trick-or-treater in orange pajamas, who silently ensures that Halloween rules are obeyed.",
-            "The movie blends horror, dark comedy, and anthology storytelling, emphasizing the consequences of breaking Halloween traditions. Its nonlinear narrative gradually reveals connections between the characters and stories, creating a tense, atmospheric, and delightfully macabre celebration of the holiday.",
         ],
         "trailer" => "https://www.youtube.com/embed/AoBx7F-q2CA?autoplay=1&mute=1&controls=0",
         "actors" => ["Dylan Baker", "Rochelle Aytes", "Quinn Lord"],
@@ -102,7 +101,7 @@ $movies = [
         "synopsis" => [
             "After the traumatic events that shook their hometown, the surviving protagonists from the previous film relocate to New York City hoping for a fresh start. But when a new masked killer emerges, they’re forced to confront their fears once more — Ghostface reappears, stalking them through the city’s streets and subways, turning the urban surroundings into a house of horrors. As panic spreads, the survivors must band together, struggle with distrust, guilt, and grief, and fight to stay alive in a world where no place feels safe anymore.",
             "Scream VI blends slasher violence with psychological horror and clever callbacks to its legacy — the danger is immediate and brutal, but there’s also constant tension around “who can we trust?” The film explores trauma, survival, and whether the ghosts of the past can truly be escaped.",
-    ],
+        ],
         "trailer" => "https://www.youtube.com/watch?v=h74AXqw4Opc",
         "actors" => ["Courteney Cox", "Melissa Barrera", "Jenna Ortega"],
         "media" => [

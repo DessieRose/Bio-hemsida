@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&family=Creepster&family=Road+Rage&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="footer.css">
-    <title>The Big Scream</title>
-</head>
 
 
 <script src="script.js"></script>
@@ -106,12 +95,52 @@
                 <p class="terms">Terms & Conditions</p>
                 <p class="privacy">Privacy Policy</p>
             </div>
-            
-        </div>
-    
-    </div>
 
-</footer>
+            <div class= "box3">
+                <h3>More</h3>
+                <ul>
+                    <li><a href="Tickets.html">Buy tickets</a></li>
+                    <li>Buy giftcard</li>
+                    <li>Deals</li>
+                    <li>Experiences</li>
+                    <li>Service</li>
+                </ul>
+            </div>
+
+            <div class= "box4">
+                <h3>Socials</h3>
+                <ul>
+                    <li>
+                        <img src="components/icons/facebook.jpg" alt="The Big Scream">
+                        <span>The Big Scream</span>
+                    </li>
+                    <li>
+                        <img src="components/icons/mail.jpg" alt="@thebigscream">
+                        <span>@thebigscream</span>
+                    </li>   
+                    <li>
+                        <img src="components/icons/instagram.jpg" alt="The Big Scream">
+                        <span>The Big Scream</span>
+                    </li>
+                </ul>
+            </div>
+            <div class= "box2">
+                <img src="components/logo.png" alt="The-big-scream logo">
+                    
+                <div class="logo-line"></div>
+
+                <div class="footer-info">
+                    <p class="copyright">© 2025 The Big Scream</p>
+                    <p class="terms">Terms & Conditions</p>
+                    <p class="privacy">Privacy Policy</p>
+                </div>
+                
+            </div>
+        
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
 
