@@ -5,7 +5,7 @@ require_once __DIR__ . "/data.php";
 
 <main>
     <div class="heroimage">
-        <img src="/components/heroimage.png" alt="Horror themed hero image.">
+        <img src="./components/heroimage.png" alt="Horror themed hero image.">
     </div>
     <section class="movies">
         <h3>Movies</h3>
@@ -13,10 +13,10 @@ require_once __DIR__ . "/data.php";
             <?php foreach ($movies as $movie) { ?>
                 <div class="movie-container">
                     <a href="movie page.php">
-                        <img class="movieroll" src="/components/single movie frame.svg">
+                        <img class="movieroll" src="./components/single movie frame.svg">
                         <img class="poster" src="<?= $movie['poster'] ?>">
                         <div class="hidden-info">
-                            <p><?= $movie['hover-info'] ?></p>
+                            <p class="hover-info"><?= $movie['hover-info'] ?></p>
                             <p class="read-more">Read more</p>
                         </div>
                         <p class="title"><?= $movie['title'] ?></p>
@@ -31,7 +31,7 @@ require_once __DIR__ . "/data.php";
         <div class="movies-container">
             <?php foreach ($movies as $movie) { ?>
                 <div class="movie-container">
-                    <img class="movieroll" src="/components/single movie frame.svg">
+                    <img class="movieroll" src="./components/single movie frame.svg">
                     <img class="poster" src="<?= $movie['poster'] ?>">
                     <div class="hidden-info">
                         <p class="hover-info"><?= $movie['hover-info'] ?></p>
