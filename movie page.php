@@ -72,6 +72,7 @@ foreach ($movies as $movie) {
     </section>
 
     <?php require_once __DIR__ . '/movietime.php'; ?>
+    <?php require_once __DIR__ . '/movieseats.php'; ?>
 
 </main>
 </body>
