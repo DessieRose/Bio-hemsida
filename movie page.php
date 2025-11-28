@@ -35,7 +35,11 @@ foreach ($movies as $movie) {
                 </div>
                 <h3 class="title-page"><?= $selectedMovie['title'] ?></h3>
                 <div class="main-wrapper">
-                    <p class="synopsis"><?= $selectedMovie['synopsis'] ?></p>
+                    <div class="synopsis-wrapper">
+                        <?php foreach ($selectedMovie['synopsis'] as $synopsis) { ?>
+                            <p class="synopsis"><?= $synopsis ?></p>
+                        <?php } ?>
+                    </div>
 
                     <div class="actor-director-wrapper">
                         <div class="actor-box">
