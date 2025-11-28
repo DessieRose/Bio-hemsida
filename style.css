@@ -57,6 +57,7 @@ a {
     color: var(--yeallow);
     font-size: 1.5rem;
     display: block;
+    z-index: 5;
 }
 
 ul {
