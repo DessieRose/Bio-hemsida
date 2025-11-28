@@ -7,7 +7,7 @@ $movies = [
         "year" => 2025,
         "rated" => "R",
         "director" => "Zach Cregger",
-        "genre" => ["Dark comedy", "Psychological Horror"],
+        "genres" => ["Dark comedy", "Psychological Horror"],
         "poster" => "./components/movies/weapons.png",
         "hover-info" => "A horror-mystery about a small town where 17 children vanish overnight at 2:17 a.m",
         "synopsis" => [
@@ -31,7 +31,7 @@ $movies = [
         "year" => 2007,
         "rated" => "11",
         "director" => "Michael Dougherty",
-        "genre" => ["Dark comedy", "Slasher horror"],
+        "genres" => ["Dark comedy", "Slasher horror", "Supernatural horror"],
         "poster" => "./components/movies/trick-r-treat.jpg",
         "hover-info" => "Interconnected Halloween horror tales with deadly twists.",
         "synopsis" => [
@@ -54,7 +54,7 @@ $movies = [
         "year" => 2025,
         "rated" => "15",
         "director" => "Ben Leonberg",
-        "genre" => ["Supernatural Horror", "Thriller"],
+        "genres" => ["Supernatural Horror", "Thriller"],
         "poster" => "./components/movies/good-boy.png",
         "hover-info" => "A haunted-house told entirely from the POV of a loyal dog, who senses supernatural forces.",
         "synopsis" => [
@@ -77,7 +77,7 @@ $movies = [
         "year" => 2025,
         "rated" => "15",
         "director" => "Ryan Coogler",
-        "genre" => ["Folk Horror", "Period Drama", "Supernatural Horror"],
+        "genres" => ["Folk Horror", "Period Drama", "Supernatural Horror"],
         "poster" => "./components/movies/sinners.png",
         "hover-info" => "Twin brothers return home in 1930s Mississippi, only to awaken an ancient evil.",
         "synopsis" => "The film follows Elijah 'Smoke' and Elias 'Stack' Moore, who return to Clarksdale, Mississippi, after working for the Chicago mob. They use their ill-gotten gains to buy an abandoned sawmill and turn it into a juke joint for the local Black community. Their plans are complicated when they are confronted by a supernatural evil that has infiltrated their town.",
@@ -96,7 +96,7 @@ $movies = [
         "year" => 2023,
         "rated" => "15",
         "director" => ["Matt Bettinelli-Olpin", "Tyler Gillett"],
-        "genre" => ["Dark comedy", "Slasher Horror", "Suspense Mystery"],
+        "genres" => ["Dark comedy", "Slasher Horror", "Suspense Mystery"],
         "poster" => "./components/movies/scream-iv.jpg",
         "hover-info" => "The survivors face a deadlier Ghostface in New York City.",
         "synopsis" => [
@@ -105,7 +105,7 @@ $movies = [
     ],
         "trailer" => "https://www.youtube.com/watch?v=h74AXqw4Opc",
         "actors" => ["Courteney Cox", "Melissa Barrera", "Jenna Ortega"],
-        "media" => [ 
+        "media" => [
             "./media/scream/1.jpg",
             "./media/scream/2.jpg",
             "./media/scream/3.jpg",

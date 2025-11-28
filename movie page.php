@@ -39,19 +39,19 @@ foreach ($movies as $movie) {
 
                     <div class="actor-director-wrapper">
                         <div class="actor-box">
-                            <p>Actors:</p>
+                            <p class="list-header">Actors:</p>
                             <ul class="actor-list">
                                 <?php foreach ($selectedMovie['actors'] as $actor) {
-                                ?> <li class="actor"><?= $actor ?></li>
+                                ?> <li class="actor list"><?= $actor ?></li>
                                 <?php } ?>
                             </ul>
                         </div>
 
                         <div class="director-box">
-                            <p>Director:</p>
-                            <p><?= $selectedMovie['director'] ?></p>
-                            <p>Runtime:</p>
-                            <p>1h 22m</p>
+                            <p class="list-header">Director:</p>
+                            <li class="list"><?= $selectedMovie['director'] ?></li>
+                            <p class="list-header">Runtime:</p>
+                            <li class="list">1h 22m</li>
                         </div>
                     <?php } ?>
                     </div>
