@@ -71,6 +71,8 @@ foreach ($movies as $movie) {
             </section>
     </section>
 
+    <?php require_once __DIR__ . '/movietime.php'; ?>
+
 </main>
 </body>
 

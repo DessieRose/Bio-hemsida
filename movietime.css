@@ -1,0 +1,29 @@
+.tickets-container {
+    max-width: 50%;
+    background-color: var(--dark-red);
+}
+
+.tickets-top-border {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--red);
+    padding: 0 2vw;
+}
+
+.tickets-top-border i {
+    font-size: 2rem;
+    color: var(--yeallow);
+}
+
+.ticket-dates {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 90%;
+    margin: 0 auto 1rem;
+}
+
+.ticket-dates p {
+    padding: 2vw;
+}
