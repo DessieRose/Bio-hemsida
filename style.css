@@ -47,6 +47,7 @@ p {
 p.thick {
     font-weight: 700; /* Bold */
     margin: 0;
+    font-weight: 700; 
 }
 
 a {
