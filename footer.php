@@ -54,7 +54,7 @@
 
     </footer>
     <script src="script.js"></script>
-    <script src="movieseats.js"></script>
+    <!-- <script src="movieseats.js"></script> -->
 </body>
 
 </html>

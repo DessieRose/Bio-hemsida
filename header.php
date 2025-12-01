@@ -7,7 +7,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&family=Creepster&family=Road+Rage&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./header.css">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="/movietime.css">
+    <!-- <link rel="stylesheet" href="./movietime.css">
+    <link rel="stylesheet" href="./movieseats.css"> -->
+    <link rel="stylesheet" href="./booking.css">
     <link rel="stylesheet" href="./footer.css">
     <title>The Big Scream</title>
 </head>
@@ -15,7 +17,7 @@
 <body>
     <header class="site-header">
         <!-- Logo -->
-        <div class="logo"><img src="./components/logo.png" alt="logo"></div>
+        <a href="./index.php"><div class="logo"><img src="./components/logo.png" alt="logo"></div></a>
 
         <!-- ROW 1 -->
         <div class="header-top">

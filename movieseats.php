@@ -1,118 +1,124 @@
-<link rel="stylesheet" href="./movieseats.css">
+<?php
+?>
 
 <body>
 
-    <section class="booking">
+    <section>
 
-        <ul class="seats">
+        <div class="booking">
 
-            <li>
-                <div class="seat"></div>
-                <small>Available</small>
-            </li>
+            <ul class="seats">
 
-            <li>
-                <div class="seat selectedseat"></div>
-                <small>Selected</small>
-            </li>
+                <li>
+                    <div class="seat"></div>
+                    <small>Available</small>
+                </li>
 
-            <li>
-                <div class="seat occupiedseat"></div>
-                <small>Occupied</small>
-            </li>
-        </ul>
+                <li>
+                    <div class="seat selectedseat"></div>
+                    <small>Selected</small>
+                </li>
 
-        <div class="theatre">
+                <li>
+                    <div class="seat occupiedseat"></div>
+                    <small>Occupied</small>
+                </li>
+            </ul>
 
-            <div class="screen"></div>
+            <div class="theatre">
 
-            <div class="row">
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat"></div>
+                <div class="screen"></div>
+
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat"></div>
+                </div>
+
+
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+
+
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+
+
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+
+
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+
+
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat occupiedseat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupiedseat"></div>
+                </div>
+
+                <p class="text">You have selected <span id="count">0</span> seats.</p>
+
             </div>
-
-
-            <div class="row">
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-            </div>
-
-
-            <div class="row">
-                <div class="seat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-            </div>
-
-
-            <div class="row">
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-            </div>
-
-
-            <div class="row">
-                <div class="seat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-            </div>
-
-
-            <div class="row">
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat occupiedseat"></div>
-                <div class="seat"></div>
-                <div class="seat occupiedseat"></div>
-            </div>
-
-            <p class="text">You have selected <span id="count">0</span> seats.</p>
-
     </section>
 
 </body>
 
 </html>
+<?php
+?>

@@ -42,7 +42,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  z-index: 2;
+  z-index: 10;
 }
 
 /* Hide desktop nav on mobile */
@@ -62,8 +62,9 @@
     visibility: hidden;
     opacity: 0;
     transition: all 0.4s ease-in-out;
-    z-index: 5;
+    z-index: 15;
 }
+
 
 /* --- Top (Sign in) --- */
 .menu-top {
@@ -122,6 +123,7 @@
     height: 55%; /* adjust as needed */
   }
 
+
 /* --- Fixed bottom bar --- */
 .menu {
     position: fixed;
@@ -150,8 +152,8 @@
 } 
 
 /* Rotate the arrow when menu opens */
-#burger-menu.close img {
-    transform: rotate(180deg);
+#burger-menu.close .menu-text img {
+  transform: rotate(180deg);
 }
 
 /* --- Bottom (Location) --- */
