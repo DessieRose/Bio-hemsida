@@ -6,7 +6,9 @@
 
 <body>
     
-     <section class="booking">
+     <section>
+
+        <div class="booking">
 
         <ul class="seats">
 
@@ -115,11 +117,11 @@
 
          <p class="text">You have selected <span id="count">0</span> seats.</p>
 
-    <script src="seating.js"></script>
+        </div>
    </section>   
 
 </body>
 </html>
-
 <?php
+require_once __DIR__ . "/footer.php";
 ?>
