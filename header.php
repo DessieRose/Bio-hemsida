@@ -40,15 +40,15 @@
             <!-- Left nav -->
             <nav class="nav-desktop-left">
                 <a href="./index.php">Home</a>
-                <a href="#">Movies</a>
-                <a href="#">Upcoming</a>
+                <a href="./index.php#movies">Movies</a>
+                <a href="./index.php#upcoming">Upcoming</a>
             </nav>
 
             <!-- Right nav + cart -->
             <!-- <div class="nav-desktop-right"> -->
             <nav class="nav-desktop-right">
                 <a href="#">Experience</a>
-                <a href="#">Tickets</a>
+                <a href="./movie page.php#tickets">Tickets</a>
                 <a class="cart"><img src="./components/icons/cart.svg" alt="cart">0</a>
             </nav>
             <!-- </div> -->
@@ -91,11 +91,11 @@
         </div>
 
         <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="#">Movies</a></li>
-            <li><a href="#">Upcoming</a></li>
+            <li><a href="./index.php">Home</a></li>
+            <li><a href="./index.php#movies">Movies</a></li>
+            <li><a href="./index.php#upcoming">Upcoming</a></li>
             <li><a href="#">Experience</a></li>
-            <li><a href="#">Get tickets</a></li>
+            <li><a href="./movie page.php#tickets">Get tickets</a></li>
         </ul>
 
         <div class="menu-bottom">
