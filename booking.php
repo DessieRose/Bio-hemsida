@@ -7,7 +7,7 @@ $tomorrow = (new DateTime())->modify('+1 day');
 
 ?>
 
-<section>
+<section class="booking-container">
     <!-- movietime starts -->
     <div class="tickets-container">
         <div class="tickets-top-border">
@@ -149,5 +149,5 @@ $tomorrow = (new DateTime())->modify('+1 day');
     <p class="text">You have selected <span id="count">0</span> seats.</p>
 
     </div>
-    
+
 </section>

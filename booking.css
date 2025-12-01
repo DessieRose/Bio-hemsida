@@ -33,10 +33,19 @@
     padding: 0 5vw;
 }
 
-@media screen and (min-width: 900px) {
-    .tickets-container {
-        max-width: 30%;
+@media screen and (min-width: 768px) {
+    .booking-container {
+        display: flex;
         margin: 5rem 5rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .tickets-container {
+        margin: 1px;
+        width: 40%;
+        /* margin: 0; */
+        height: 65vh;
         /* padding-bottom: 0.3rem; */
     }
     
@@ -61,8 +70,8 @@
     }
     
     .ticket-dates p {
-        padding: 1vw;
-        font-size: 1.5vw;
+        padding: 0 1.5vw 0 1.5vw;
+        font-size: 1.2vw;
     }
 
     .tickets-top-border h3 {
@@ -74,18 +83,6 @@
 /* Movie Seats CSS Start */
 *{
     box-sizing: border-box;
-}
-
-:root {
-    --primary-bg-color: #1F2536;
-    --red: #971818;
-    --dark-red: #6E1E1E;
-    --dark-green: #374A04;
-    --yeallow: #FFDD00;
-    --orange: #FF9D00;
-    --black: #000000;
-    --dark-gray: #A7A7A7;
-    --light-gray: #E3E7F2;
 }
 
 
@@ -189,6 +186,10 @@ p.text span {
 }
 
 @media (min-width: 768px) {
+    .booking {
+        padding: 4rem;
+        width: 50vw;
+    }
     
     .theatre {
         max-width: 600px;
