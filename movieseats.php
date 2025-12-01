@@ -1,13 +1,8 @@
-<?php
-require_once __DIR__ . "/header.php";
-require_once __DIR__ . "/data.php";
-?>
-
-    <link rel="stylesheet" href="./movieseats.css">
+<link rel="stylesheet" href="./movieseats.css">
 
 <body>
-    
-     <section class="booking">
+
+    <section class="booking">
 
         <ul class="seats">
 
@@ -15,12 +10,12 @@ require_once __DIR__ . "/data.php";
                 <div class="seat"></div>
                 <small>Available</small>
             </li>
-        
+
             <li>
                 <div class="seat selectedseat"></div>
                 <small>Selected</small>
             </li>
-        
+
             <li>
                 <div class="seat occupiedseat"></div>
                 <small>Occupied</small>
@@ -44,7 +39,7 @@ require_once __DIR__ . "/data.php";
                 <div class="seat"></div>
             </div>
 
-    
+
             <div class="row">
                 <div class="seat"></div>
                 <div class="seat"></div>
@@ -58,7 +53,7 @@ require_once __DIR__ . "/data.php";
                 <div class="seat"></div>
             </div>
 
-        
+
             <div class="row">
                 <div class="seat"></div>
                 <div class="seat occupiedseat"></div>
@@ -72,7 +67,7 @@ require_once __DIR__ . "/data.php";
                 <div class="seat"></div>
             </div>
 
-        
+
             <div class="row">
                 <div class="seat"></div>
                 <div class="seat"></div>
@@ -86,7 +81,7 @@ require_once __DIR__ . "/data.php";
                 <div class="seat"></div>
             </div>
 
-        
+
             <div class="row">
                 <div class="seat"></div>
                 <div class="seat occupiedseat"></div>
@@ -100,7 +95,7 @@ require_once __DIR__ . "/data.php";
                 <div class="seat"></div>
             </div>
 
-        
+
             <div class="row">
                 <div class="seat"></div>
                 <div class="seat"></div>
@@ -114,14 +109,10 @@ require_once __DIR__ . "/data.php";
                 <div class="seat occupiedseat"></div>
             </div>
 
-         <p class="text">You have selected <span id="count">0</span> seats.</p>
+            <p class="text">You have selected <span id="count">0</span> seats.</p>
 
-    <script src="seating.js"></script>
-   </section>   
+    </section>
 
 </body>
-</html>
 
-<?php
-require_once __DIR__ . "/footer.php";
-?>
+</html>
