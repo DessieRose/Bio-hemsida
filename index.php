@@ -23,10 +23,10 @@ require_once __DIR__ . "/data.php";
                     </a>
                 </div>
             <?php } ?>
-            <a class="see-more">See more</a>
         </div>
+        <a class="see-more">See more</a>
     </section>
-    <section class="upcoming">
+    <section class="retro-runs">
         <h3>Retro Runs</h3>
         <div class="movies-container">
             <?php foreach ($retroRuns as $retroRun) { ?>
@@ -42,8 +42,28 @@ require_once __DIR__ . "/data.php";
                     </a>
                 </div>
             <?php } ?>
-            <a class="see-more">See more</a>
         </div>
+        <a class="see-more">See more</a>
+    </section>
+
+    <section class="upcoming">
+        <h3>Upcoming</h3>
+        <div class="movies-container">
+            <?php foreach ($upcoming as $new) { ?>
+                <div class="movie-container">
+                    <a href="movie page.php">
+                        <img class="movieroll" src="./components/single movie frame.svg">
+                        <img class="poster" src="<?= $new['poster'] ?>">
+                        <div class="hidden-info">
+                            <p class="hover-info"><?= $new['hover-info'] ?></p>
+                            <p class="read-more">Read more</p>
+                        </div>
+                        <p class="title"><?= $new['title'] ?></p>
+                    </a>
+                </div>
+            <?php } ?>
+        </div>
+        <a class="see-more">See more</a>
     </section>
 
 </main>

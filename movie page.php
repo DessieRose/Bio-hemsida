@@ -70,11 +70,11 @@ foreach ($movies as $movie) {
                 </div>
             </section>
     </section>
-  
+
 
     <?php require_once __DIR__ . '/booking.php'; ?>
 
-    
+
 </main>
 </body>
 

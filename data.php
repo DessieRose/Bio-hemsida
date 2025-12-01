@@ -211,3 +211,100 @@ $retroRuns = [
         ]
     ],
 ];
+$upcoming = [
+    [
+        "id" => 1,
+        "title" => "Scream 7",
+        "year" => 2026,
+        "rated" => "15",
+        "director" => "Kevin Williamson",
+        "genres" => ["Slasher horror", "Whodunnit", "Horror", "Mystery"],
+        "poster" => "./components/movies/scream 7.png",
+        "hover-info" => "When a new Ghostface killer emerges in the town where Sidney Prescott has built a new life, her darkest fears are realized as her daughter becomes the next target.",
+        "synopsis" => [],
+        "trailer" => "https://www.youtube.com/watch?v=UJrghaPJ0RY&t=1s",
+        "actors" => ["Neve Campbell", "Courteney Cox", "Isabel May", "Jasmin Savoy Brown"],
+        "media" => [
+            "./media/creature-black-lagoon/1.jpg",
+            "./media/creature-black-lagoon/2.jpg",
+            "./media/creature-black-lagoon/3.jpg",
+            "./media/creature-black-lagoon/4.jpg",
+        ]
+    ],
+    [
+        "id" => 2,
+        "title" => "Psycho Killer",
+        "year" => 2026,
+        "rated" => "15",
+        "director" => "Gavin Polone",
+        "genres" => ["Folk horror", "Slasher horror", "Crime", "Horror", "Thriller"],
+        "poster" => "./components/movies/psycho-killer.png",
+        "hover-info" => "A police officer tracks a killer after her husband, a highway patrolman, becomes one of his victims.",
+        "synopsis" => [],
+        "trailer" => "https://www.youtube.com/watch?v=pwq8gwdVxts",
+        "actors" => ["Neve Campbell", "Courteney Cox", "Isabel May", "Jasmin Savoy Brown"],
+        "media" => [
+            "./media/creature-black-lagoon/1.jpg",
+            "./media/creature-black-lagoon/2.jpg",
+            "./media/creature-black-lagoon/3.jpg",
+            "./media/creature-black-lagoon/4.jpg",
+        ]
+    ],
+    [
+        "id" => 3,
+        "title" => "Clayface",
+        "year" => 2026,
+        "rated" => "15",
+        "director" => "James Watkins",
+        "genres" => ["Body horror", "Folk horror", "Psychological horror", "Monster horror", "Showbiz drama", "Action"],
+        "poster" => "./components/movies/clayface.png",
+        "hover-info" => "A shape-shifting creature made of magical clay haunts Gotham City, alternating between villain and ally of Batman. Multiple tragic figures have taken on the Clayface mantle over the years.",
+        "synopsis" => [],
+        "trailer" => "https://www.youtube.com/watch?v=UJrghaPJ0RY&t=1s",
+        "actors" => ["Neve Campbell", "Courteney Cox", "Isabel May", "Jasmin Savoy Brown"],
+        "media" => [
+            "./media/creature-black-lagoon/1.jpg",
+            "./media/creature-black-lagoon/2.jpg",
+            "./media/creature-black-lagoon/3.jpg",
+            "./media/creature-black-lagoon/4.jpg",
+        ]
+    ],
+    [
+        "id" => 4,
+        "title" => "Return to Silent Hill",
+        "year" => 2026,
+        "rated" => "15",
+        "director" => "Christophe Gans",
+        "genres" => ["Slasher horror", "Whodunnit", "Horror", "Mystery"],
+        "poster" => "./components/movies/return-to-silent-hill.png",
+        "hover-info" => "When a mysterious letter calls him back to Silent Hill in search of his lost love, James finds a once-recognizable town and encounters terrifying figures both familiar and new, and begins to question his own sanity.",
+        "synopsis" => [],
+        "trailer" => "https://www.youtube.com/watch?v=UJrghaPJ0RY&t=1s",
+        "actors" => ["Neve Campbell", "Courteney Cox", "Isabel May", "Jasmin Savoy Brown"],
+        "media" => [
+            "./media/creature-black-lagoon/1.jpg",
+            "./media/creature-black-lagoon/2.jpg",
+            "./media/creature-black-lagoon/3.jpg",
+            "./media/creature-black-lagoon/4.jpg",
+        ]
+    ],
+    [
+        "id" => 5,
+        "title" => "Send Help",
+        "year" => 2026,
+        "rated" => "15",
+        "director" => "Kevin Williamson",
+        "genres" => ["Slasher horror", "Whodunnit", "Horror", "Mystery"],
+        "poster" => "./components/movies/send-help.png",
+        "hover-info" => "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
+        "synopsis" => [],
+        "trailer" => "https://www.youtube.com/watch?v=UJrghaPJ0RY&t=1s",
+        "actors" => ["Neve Campbell", "Courteney Cox", "Isabel May", "Jasmin Savoy Brown"],
+        "media" => [
+            "./media/creature-black-lagoon/1.jpg",
+            "./media/creature-black-lagoon/2.jpg",
+            "./media/creature-black-lagoon/3.jpg",
+            "./media/creature-black-lagoon/4.jpg",
+        ]
+    ],
+];

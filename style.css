@@ -19,6 +19,9 @@ body {
     box-sizing: border-box;
     overflow-x: hidden;
 }
+main {
+    padding-bottom: 2rem;
+}
 
 h2 {
     font-family: "Creepster", system-ui;
@@ -138,6 +141,11 @@ li {
     margin: 1rem;
     font-family: "Brawler", serif;
     font-size: 1.2rem;
+    display: block;
+    text-align: right;
+    text-decoration: none;
+}
+.see-more:hover{
     text-decoration: underline;
 }
 
@@ -259,9 +267,7 @@ li {
         grid-template-columns: repeat(5, 1fr);
         row-gap: 1rem;
     }
-    .see-more{
-        align-self: flex-end;
-    }
+
     .movies-container :nth-last-child(5){
         display: block;
     }
@@ -322,6 +328,9 @@ li {
     }
     .genre{
         mask: linear-gradient ;
+    }
+    .booking-section{
+        display: flex;
     }
 }
 
