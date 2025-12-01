@@ -7,7 +7,7 @@ require_once __DIR__ . "/data.php";
     <div class="heroimage">
         <img src="./components/heroimage.png" alt="Horror themed hero image.">
     </div>
-    <section class="movies">
+    <section class="movies" id="movies">
         <h3>Movies</h3>
         <div class="movies-container">
             <?php foreach ($movies as $movie) { ?>
@@ -46,7 +46,7 @@ require_once __DIR__ . "/data.php";
         <a class="see-more">See more</a>
     </section>
 
-    <section class="upcoming">
+    <section class="upcoming" id="upcoming">
         <h3>Upcoming</h3>
         <div class="movies-container">
             <?php foreach ($upcoming as $new) { ?>
