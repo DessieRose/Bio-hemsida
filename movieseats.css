@@ -115,6 +115,7 @@ p.text span {
 }
 
 @media (min-width: 768px) {
+    
     .theatre {
         max-width: 600px;
         margin: 20px auto;
