@@ -27,17 +27,19 @@ require_once __DIR__ . "/data.php";
         </div>
     </section>
     <section class="upcoming">
-        <h3>Upcoming</h3>
+        <h3>Retro Runs</h3>
         <div class="movies-container">
-            <?php foreach ($movies as $movie) { ?>
+            <?php foreach ($retroRuns as $retroRun) { ?>
                 <div class="movie-container">
-                    <img class="movieroll" src="./components/single movie frame.svg">
-                    <img class="poster" src="<?= $movie['poster'] ?>">
-                    <div class="hidden-info">
-                        <p class="hover-info"><?= $movie['hover-info'] ?></p>
-                        <p class="read-more">Read more</p>
-                    </div>
-                    <p class="title"><?= $movie['title'] ?></p>
+                    <a href="movie page.php">
+                        <img class="movieroll" src="./components/single movie frame.svg">
+                        <img class="poster" src="<?= $retroRun['poster'] ?>">
+                        <div class="hidden-info">
+                            <p class="hover-info"><?= $retroRun['hover-info'] ?></p>
+                            <p class="read-more">Read more</p>
+                        </div>
+                        <p class="title"><?= $retroRun['title'] ?></p>
+                    </a>
                 </div>
             <?php } ?>
             <a class="see-more">See more</a>

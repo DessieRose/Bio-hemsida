@@ -31,7 +31,7 @@ $movies = [
         "year" => 2007,
         "rated" => "11",
         "director" => "Michael Dougherty",
-        "genres" => ["Dark comedy", "Slasher horror", "Supernatural horror"],
+        "genres" => ["Dark comedy", "Slasher horror", "Supernatural horror", "Monster horror", "Comedy", "Horror"],
         "poster" => "./components/movies/trick-r-treat.jpg",
         "hover-info" => "Interconnected Halloween horror tales with deadly twists.",
         "synopsis" => [
@@ -109,6 +109,105 @@ $movies = [
             "./media/scream/2.jpg",
             "./media/scream/3.jpg",
             "./media/scream/4.jpg",
+        ]
+    ],
+];
+
+
+$retroRuns = [
+    [
+        "id" => 1,
+        "title" => "Creature from the Black Lagoon",
+        "year" => 1954,
+        "rated" => "15",
+        "director" => "Jack Arnold",
+        "genres" => ["Monster Horror", "Horror", "Sci-Fi"],
+        "poster" => "./components/movies/creature-from-the-black-lagoon.jpg",
+        "hover-info" => "A strange prehistoric beast lurks in the depths of the Amazonian jungle",
+        "synopsis" => [],
+        "trailer" => "https://www.youtube.com/watch?v=rXRXTaQ6Iuw",
+        "actors" => ["Richard Carlson", "Julie Adams", "Richard Denning"],
+        "media" => [
+            "./media/creature-black-lagoon/1.jpg",
+            "./media/creature-black-lagoon/2.jpg",
+            "./media/creature-black-lagoon/3.jpg",
+            "./media/creature-black-lagoon/4.jpg",
+        ]
+    ],
+    [
+        "id" => 2,
+        "title" => "Attack of the 50Ft. Woman",
+        "year" => 1958,
+        "rated" => "11",
+        "director" => "Nathan Juran",
+        "genres" => ["B-Horror", "Kaiju", "Drama", "Horror", "Sci-Fi"],
+        "poster" => "./components/movies/Attackofthe50ftwoman.jpg",
+        "hover-info" => "When an abused socialite grows to giant size because of an alien encounter",
+        "synopsis" => [],
+        "trailer" => "https://www.youtube.com/watch?v=dlRJbC0Bw3o",
+        "actors" => ["Allison Hayes", "William Hudson", "Yvette Vickers"],
+        "media" => [
+            "./media/attack-50ft-woman/1.png",
+            "./media/attack-50ft-woman/2.png",
+            "./media/attack-50ft-woman/3.png",
+            "./media/attack-50ft-woman/4.png",
+        ]
+    ],
+    [
+        "id" => 3,
+        "title" => "Mars Attacks!",
+        "year" => 1996,
+        "rated" => "11",
+        "director" => "Tim Burton",
+        "genres" => ["Alien Invasion", "Dark Comedy", "Parody", "Satire", "Space Sci-Fi", "Comedy", "Sci-Fi"],
+        "poster" => "./components/movies/mars-attack.jpg",
+        "hover-info" => "Earth is invaded by Martians with unbeatable weapons and a cruel sense of humor.",
+        "synopsis" => [],
+        "trailer" => "https://www.youtube.com/watch?v=41ZzO1hW6yw",
+        "actors" => ["Jack Nicholson", "Pierce Brosnan", "Sarah Jessica Parker"],
+        "media" => [
+            "./media/mars-attack/1.jpg",
+            "./media/mars-attack/2.jpg",
+            "./media/mars-attack/3.jpg",
+            "./media/mars-attack/4.jpg",
+        ]
+    ],
+    [
+        "id" => 4,
+        "title" => "Killer Klowns from Outer Space",
+        "year" => 1988,
+        "rated" => "7",
+        "director" => "Stephen Chiodo",
+        "genres" => ["Alien Invasion", "B-Horror", "Dark Comedy", "Monster Horror", "Parody", "Supernatural Horror"],
+        "poster" => "./components/movies/killer-klowns-outer-space.jpg",
+        "hover-info" => "Aliens who look like clowns come from outer space and terrorize a small town.",
+        "synopsis" => [],
+        "trailer" => "https://www.youtube.com/watch?v=ETiSMS4i1as",
+        "actors" => ["Grant Cramer", "Suzanne Snyder", "John Allen Nelson"],
+        "media" => [
+            "./media/killer-klowns-outer-space/1.jpg",
+            "./media/killer-klowns-outer-space/2.jpg",
+            "./media/killer-klowns-outer-space/3.jpg",
+            "./media/killer-klowns-outer-space/4.png",
+        ]
+    ],
+    [
+        "id" => 5,
+        "title" => "Dark Water",
+        "year" => 2005,
+        "rated" => "15",
+        "director" => "Walter Salles",
+        "genres" => ["Supernatural Horror", "Drama", "Horror", "Mystery"],
+        "poster" => "./components/movies/dark-water.jpg",
+        "hover-info" => "A mother and daughter, still wounded, hole up in a run-down apartment building...",
+        "synopsis" => [],
+        "trailer" => "https://www.youtube.com/watch?v=t24DuU9TXRM",
+        "actors" => ["Jennifer Connelly", "Ariel Gade", "John C. Reilly"],
+        "media" => [
+            "./media/dark-water/1.jpg",
+            "./media/dark-water/2.jpg",
+            "./media/dark-water/3.jpg",
+            "./media/dark-water/4.jpg",
         ]
     ],
 ];
