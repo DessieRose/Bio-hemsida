@@ -25,7 +25,7 @@
                 <img class="arrow-down" src="./components/icons/arrow-down.svg" alt="arrow-down">
             </div>
 
-            <div class="signin">
+            <div class="sign-in">
                 <img class="avatar" src="./components/icons/avatar.svg" alt="avatar">
                 Sign in
                 <img class="arrow-down" src="./components/icons/arrow-down.svg" alt="arrow-down">
