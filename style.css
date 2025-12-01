@@ -21,6 +21,7 @@ body {
 }
 main {
     padding-bottom: 2rem;
+    position: relative;
 }
 
 h2 {
@@ -149,14 +150,45 @@ li {
     text-decoration: underline;
 }
 
+.movies, .retroRuns, .upcoming{
+    padding-bottom: 3rem;
+}
+
+.background-filmroll{
+    display: none;
+}
+
 /*Movie page style*/
+.poster-wrapper{
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.hero-poster{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 55%;
+        top: 6%;
+        box-shadow:rgba(0, 0, 0, 0.4) 0px 10px 15px 10px;
+
+    }
+
+
 .trailer{
     width: 100%;
     height: 30vh;
 }
 
-.movie-detail{
-    padding-bottom: 4rem;
+
+.movie-images{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .picture-wrapper{
@@ -164,18 +196,34 @@ li {
     overflow-x: auto;
     overflow-y: visible;
 	white-space: nowrap;
+    height: 250px;
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 2rem;
+    background-color: black;
 }
+.picture-edges{
+    display: block;
+    height: 1.5rem;
+    margin: 0;
+    overflow: hidden;
+}
+.bottom-edge{
+    rotate: 180deg;
+}
+
 
 ::-webkit-scrollbar{
 	display: none;
 }
 
-.picture-containers{
-    height: 200px;
-}
+
 .picture{
     object-fit:scale-down;
     height: 100%;
+    margin: 0;
+    border-radius: 5%;
 }
 .padding{
     padding: 1rem;
@@ -281,10 +329,39 @@ li {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
+    .background-filmroll{
+        display: block;
+        position: absolute;
+        width: 100%;
+        transform: rotate(-25deg);
+        z-index: -20;
+        opacity: 0.3;
+    }
+
+    .top{
+        top: 40%;
+    }
+    .bottom{
+        top: 65%;
+    }
+
     /*movie page*/
-    
+    .poster-wrapper{
+        height: auto;
+    }
+
+    .hero-poster{
+        top: 5%;
+        width: 28%;
+    }
+
+    .hero-background{
+        width: 100%;
+    }
+
+
     .trailer{
-        height: 60vh;
+        height: 70vh;
     }
 
 
@@ -310,6 +387,10 @@ li {
         align-items: flex-start;
         width: 25rem;
     }
+    .picture-edges{
+        width: 100%;
+        height: auto;
+    }
     
 }
 
@@ -329,8 +410,7 @@ li {
     .genre{
         mask: linear-gradient ;
     }
-    .booking-section{
-        display: flex;
-    }
+
+
 }
 

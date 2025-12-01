@@ -14,9 +14,12 @@ foreach ($movies as $movie) {
 
 <main>
     <section class="movie-detail">
-
-        <iframe class="trailer" src="<?= $selectedMovie['trailer'] ?>" frameborder="0"></iframe>"
-
+        <div class="hero-detail">
+            <div class="poster-wrapper">
+                <img class="hero-poster" src="<?= $selectedMovie['poster'] ?>">
+                <img class="hero-background" src="./components/poster-background.jpg">
+            </div>
+        </div>
         <?php
         if ($selectedMovie) { ?>
             <section class="padding">
@@ -61,16 +64,21 @@ foreach ($movies as $movie) {
                     </div>
                 </div>
 
-                <div class="picture-wrapper">
-                    <?php foreach ($selectedMovie['media'] as $picture) { ?>
-                        <div class="picture-containers">
-                            <img class="picture" src="<?= $picture ?>">
-                        </div>
-                    <?php } ?>
-                </div>
+                <section class="movie-images">
+                    <img class="picture-edges top-edge" src="./components/filmrulle-kant.svg">
+                    <div class="picture-wrapper">
+                        <?php foreach ($selectedMovie['media'] as $picture) { ?>
+                            <div class="picture-containers">
+                                <img class="picture" src="<?= $picture ?>">
+                            </div>
+                        <?php } ?>
+                    </div>
+                    <img class="picture-edges bottom-edge" src="./components/filmrulle-kant.svg">
+                </section>
             </section>
     </section>
 
+    <iframe class="trailer" src="<?= $selectedMovie['trailer'] ?>" frameborder="0"></iframe>"
 
     <?php require_once __DIR__ . '/booking.php'; ?>
 
