@@ -22,7 +22,8 @@
     color: var(--yeallow);
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 65vh;
+    margin: 1.5rem;
 }
 
 
@@ -114,31 +115,29 @@ p.text span {
 }
 
 @media (min-width: 768px) {
-    /* Teatercontainer */
     .theatre {
-        max-width: 600px; /* begränsa bredden */
-        margin: 20px auto; /* centrera på desktop */
+        max-width: 600px;
+        margin: 20px auto;
     }
 
-    /* Rader och säten */
     .row {
-        justify-content: center; /* centrera raderna horisontellt */
-        gap: 0.4rem; /* öka avstånd mellan säten */
+        justify-content: center;
+        gap: 0.4rem;
     }
 
     .seat {
-        width: 1.8rem; /* lite större säten */
+        width: 1.8rem;
         height: 2rem;
         margin: 0.2rem;
     }
 
-    /* Legend */
     .seats {
-        margin-bottom: 20px; /* ge lite avstånd från teatern */
-        justify-content: space-around; /* sprid ut elementen */
+        margin-bottom: 20px;
+        justify-content: space-around;
     }
 
     p.text {
-        font-size: 1.1rem; /* större text */
+        font-size: 1.1rem;
     }
+
 }
