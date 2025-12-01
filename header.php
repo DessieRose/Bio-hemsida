@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./header.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./movietime.css">
+    <link rel="stylesheet" href="./movieseats.css">
     <link rel="stylesheet" href="./footer.css">
     <title>The Big Scream</title>
 </head>
