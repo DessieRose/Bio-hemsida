@@ -154,7 +154,7 @@ li {
     text-decoration: underline;
 }
 
-.movies, .retroRuns, .upcoming{
+.retroRuns, .upcoming{
     padding-bottom: 3rem;
 }
 
@@ -311,6 +311,13 @@ li {
 
 
 @media screen and (min-width: 600px) {
+
+    .section-header{
+        padding-left: 2rem;
+    }
+    .see-more{
+        padding-right: 2rem;
+    }
     .movies-container{
         display: grid;
         grid-template-columns: repeat(5, 1fr);

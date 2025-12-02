@@ -8,7 +8,7 @@ require_once __DIR__ . "/data.php";
         <img src="./components/heroimage.png" alt="Horror themed hero image.">
     </div>
     <section class="movies" id="movies">
-        <h3>Movies</h3>
+        <h3 class="section-header">Movies</h3>
         <div class="movies-container">
             <?php foreach ($movies as $movie) { ?>
                 <div class="movie-container">
@@ -26,12 +26,12 @@ require_once __DIR__ . "/data.php";
         </div>
         <a class="see-more">See more</a>
     </section>
-    <?php require_once __DIR__ . '/offer-news.php';?>
+    <?php require_once __DIR__ . '/offer-news.php'; ?>
 
     <img class="background-filmroll top" src="./components/filmrulle-bakgrund.svg">
 
     <section class="retro-runs">
-        <h3>Retro Runs</h3>
+        <h3 class="section-header">Retro Runs</h3>
         <div class="movies-container">
             <?php foreach ($retroRuns as $retroRun) { ?>
                 <div class="movie-container">
@@ -53,7 +53,7 @@ require_once __DIR__ . "/data.php";
     <img class="background-filmroll bottom" src="./components/filmrulle-bakgrund.svg">
 
     <section class="upcoming" id="upcoming">
-        <h3>Upcoming</h3>
+        <h3 class="section-header">Upcoming</h3>
         <div class="movies-container">
             <?php foreach ($upcoming as $new) { ?>
                 <div class="movie-container">
@@ -71,7 +71,7 @@ require_once __DIR__ . "/data.php";
         </div>
         <a class="see-more">See more</a>
     </section>
-<?php require_once __DIR__ . '/offer-news.php';?>
+    <?php require_once __DIR__ . '/offer-news.php'; ?>
 </main>
 
 
