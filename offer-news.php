@@ -23,10 +23,10 @@
 
 
 <div class="newsletter">
-    <h4>
+    <h3>
         Never miss anything new!<br>
         Sign up for our newsletter
-    </h4>
+    </h3>
 
 <form>
     <div class="form-row">
