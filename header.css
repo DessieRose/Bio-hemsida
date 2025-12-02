@@ -266,7 +266,7 @@
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    padding: .5rem 2rem;
+    padding: 1.5rem 3rem 1rem 3rem;
     /* background: var(--red); */
     color: var(--yeallow);
     font-size: 1.1rem;
@@ -277,7 +277,7 @@
     align-items: center;
     justify-content: left;
     gap: 8px;
-    /* margin-left: 2rem; */
+    margin: 0;
   }
 
   .sign-in {
@@ -304,7 +304,7 @@
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    padding: .5rem 2rem;
+    padding: 1rem 3rem 1.5rem 3rem;
   }
 
   /* SHOW desktop navs */
