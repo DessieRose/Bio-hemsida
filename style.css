@@ -178,7 +178,7 @@ li {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    height: 90%;
+    height: 80%;
     top: 3%;
     object-fit: scale-down;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 15px 10px;
