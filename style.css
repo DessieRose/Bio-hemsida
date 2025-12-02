@@ -257,11 +257,6 @@ li {
     overflow-x:scroll;
     white-space: nowrap;
     mask: linear-gradient(90deg,#0000,#000 5% 80%,#0000);
-    background: linear-gradient(
-        to-right,
-        --primary-bg-color 100%,
-
-        );
 }
 .genre-box{
     background-color: var(--yeallow);
@@ -417,8 +412,8 @@ li {
     .genre-wrapper{
         padding-left: 4rem;
     }
-    .genre{
-        mask: linear-gradient ;
+    .genres{
+        mask: none;
     }
 
 
