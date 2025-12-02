@@ -220,6 +220,7 @@ p.text span {
 }
 
 @media (min-width: 768px) {
+ 
     .booking {
         padding: 4rem;
         width: 50vw;
@@ -261,6 +262,23 @@ p.text span {
         background-color: var(--yeallow);
         transition: 0.3s;
 
+    }
+
+    .booking-container {
+        justify-content: space-between;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        
+    }
+
+    .tickets-container { 
+        width: 40%;
+        height: 80vh;
+    }
+    .booking {    
+        width: 55%; 
+        height: 80vh;
+        contain: content;
     }
 
 }
