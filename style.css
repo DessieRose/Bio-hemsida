@@ -1,6 +1,7 @@
 :root {
     --primary-bg-color: #1F2536;
     --red: #971818;
+    --dark-red: #6E1E1E;
     --dark-green: #374A04;
     --yeallow: #FFDD00;
     --orange: #FF9D00;
@@ -8,17 +9,30 @@
     --dark-gray: #A7A7A7;
     --light-gray: #E3E7F2;
 }
+*{
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
 
 body {
     margin: 0;
     background-color: var(--primary-bg-color);
     box-sizing: border-box;
+    overflow-x: hidden;
+}
+main {
+    padding-bottom: 2rem;
+    position: relative;
 }
 
 h2 {
     font-family: "Creepster", system-ui;
     font-weight: 400;
     font-style: normal;
+    color: var(--yeallow);
 }
 
 h3 {
@@ -26,6 +40,8 @@ h3 {
     font-weight: 400;
     font-style: normal;
     font-size: 3rem;
+    margin: 1rem;
+    color: var(--yeallow);
 }
 
 p {
@@ -33,10 +49,13 @@ p {
     font-weight: 400;
     font-style: normal;
     font-size: 1rem;
+    color: var(--yeallow);
 }
 
 p.thick {
     font-weight: 700; /* Bold */
+    margin: 0;
+    font-weight: 700; 
 }
 
 a {
@@ -45,34 +64,365 @@ a {
     text-decoration: none;
     color: var(--yeallow);
     font-size: 1.5rem;
+    display: block;
+    z-index: 5;
 }
 
-ul, nav {
-    list-style-type: none;
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* ---- Hero Image ---- */
+.heroimage img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.movies-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2);
+    row-gap: 1rem;
+}
+.movie-container{
+    position: relative;
+    object-fit: contain;
+}
+.movies-container :nth-last-child(5){
+    display: none;
+}
+.movieroll{
+    width: 100%;
+}
+.poster, .title{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.poster{
+    width: 80%;
+    height: 68%;
+    top: 10%;
+    z-index: -2;
+}
+.hidden-info{
+    position: absolute;
+    left: 12%;
+    top: 10.5%;
+    opacity: 0;
+    width: 65%;
+    height: 61%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0.3em;
+}
+.hover-info{
+    overflow: hidden;
+    height: 85%;
+}
+.read-more{
+    text-decoration: underline;
+    font-family: "Brawler" serif;
+}
+
+.title{
+    z-index: 1;
+    text-align: center;
+    bottom: 7%;
+    width: 80%;
+}
+
+.see-more{
+    margin: 1rem;
+    font-family: "Brawler", serif;
+    font-size: 1.2rem;
+    display: block;
+    text-align: right;
+    text-decoration: none;
+}
+.see-more:hover{
+    text-decoration: underline;
+}
+
+.retroRuns, .upcoming{
+    padding-bottom: 3rem;
+}
+
+.background-filmroll{
     display: none;
 }
 
-header {
-    background-color: var(--red);
-    box-shadow: 0 2px 2px #0000005a;
-    height: 15vh;
+/*Movie page style*/
+.poster-wrapper{
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.hero-poster{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 80%;
+    top: 3%;
+    object-fit: scale-down;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 15px 10px;
+}
+
+
+.trailer{
+    width: 100%;
+    height: 30vh;
+}
+
+
+.movie-images{
     padding-top: 2rem;
-    text-align: center;    
+    padding-bottom: 2rem;
+    overflow: hidden;
 }
 
-.logo img {
-    width: 316px;
-    height: 121px;
+.picture-wrapper{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+	white-space: nowrap;
+    height: 250px;
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 2rem;
+    background-color: black;
+}
+.picture-edges{
+    display: block;
+    height: 1.5rem;
+    margin: 0;
+    overflow: hidden;
+}
+.bottom-edge{
+    rotate: 180deg;
 }
 
-@media screen and (min-width: 500px) {
-    .logo img {
-        width: 490px;
-        height: 136px;
+
+::-webkit-scrollbar{
+	display: none;
+}
+
+
+.picture{
+    object-fit:scale-down;
+    height: 100%;
+    margin: 0;
+    border-radius: 5%;
+}
+.padding{
+    padding-top: 0;
+}
+.genre-wrapper, .genres, .genre-box, .rated-box, .actor-director-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+
+.rated-box{
+    border: 1px solid var(--yeallow);
+    border-radius: 3px;
+    padding: 3px;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+.rated{
+    margin: 0;
+}
+.genres{
+    padding-left: 1rem;
+    gap: 1rem;
+    overflow-x:scroll;
+    white-space: nowrap;
+    mask: linear-gradient(90deg,#0000,#000 5% 80%,#0000);
+}
+.genre-box{
+    background-color: var(--yeallow);
+    height: 2rem;
+    padding: 0 10px;
+    border-radius: 20px;
+    
+}
+.genre{
+    color: var(--primary-bg-color);
+    font-size: 14px;
+    margin: 0;
+}
+.genre-wrapper{
+    margin: 1rem;
+
+}
+
+.synopsis-wrapper{
+    flex-direction: column;
+}
+
+.synopsis{
+    padding: 1rem;
+}
+
+.list-header{
+    font-family: "Road Rage", sans-serif;
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.actor-list, .actor, .list{
+    display: block;
+    color: var(--yeallow);
+}
+.actor{
+    margin: 5px;
+}
+.actor:last-child{
+    margin-bottom: 1rem;
+}
+.actor-director-wrapper{
+    padding: 1rem;
+    justify-content: space-around;
+}
+.actor-box, .director-box{
+    border-left: 1px solid var(--yeallow);
+    height: 100%;
+    padding-left: 1rem;
+}
+
+
+@media screen and (min-width: 600px) {
+
+    .section-header{
+        padding-left: 2rem;
+    }
+    .see-more{
+        padding-right: 2rem;
+    }
+    .movies-container{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        row-gap: 1rem;
     }
 
-    header {
-        width: auto;
-        height: 200px;
+    .movies-container :nth-last-child(5){
+        display: block;
     }
+    .hidden-info:hover {
+        opacity: 1;
+        visibility: visible;
+        transition: opacity ease 0.3s;
+        background-color: rgba(59, 59, 59, 0.5);
+        backdrop-filter: blur(5px);
+        border-radius: 0.5em;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .background-filmroll{
+        display: block;
+        position: absolute;
+        width: 100%;
+        transform: rotate(-25deg);
+        z-index: -20;
+        opacity: 0.3;
+    }
+
+    .hero-poster{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        box-shadow:rgba(0, 0, 0, 0.4) 0px 10px 15px 10px;
+    }
+
+    .top{
+        top: 40%;
+    }
+    .bottom{
+        bottom: 14%;
+    }
+
+    /*movie page*/
+    .poster-wrapper{
+        height: auto;
+    }
+
+
+
+    .hero-background{
+        width: 100%;
+    }
+
+
+    .trailer{
+        height: 70vh;
+    }
+
+
+    .genre{
+        font-size: 1rem;
+    }
+
+    .genre-wrapper{
+        justify-content: flex-start;
+        gap: 2rem;
+        padding: 1rem;
+        
+    }
+    .main-wrapper{
+        display: flex;
+        gap: 2rem;
+    }
+    .synopsis-wrapper{
+        max-width: 65vw;
+    }
+    .actor-director-wrapper{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 25rem;
+    }
+    .picture-edges{
+        width: 100%;
+        height: auto;
+    }
+    
 }
+
+@media screen and (min-width: 900px) {
+
+    .main-wrapper{
+        display: flex;
+        gap: 5rem;
+        padding: 0 3rem 5rem 3rem;
+    }
+    .title-page{
+        padding-left: 3rem;
+    }
+    .genre-wrapper{
+        padding-left: 4rem;
+    }
+    .genres{
+        mask: none;
+    }
+
+
+}
+
