@@ -176,10 +176,11 @@ li {
 
 .hero-poster{
     position: absolute;
-    left: 51%;
+    left: 50%;
     transform: translate(-50%);
-    width: 69%;
-    top: 7%;
+    height: 90%;
+    top: 3%;
+    object-fit: scale-down;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 15px 10px;
 }
 
@@ -275,7 +276,8 @@ li {
     margin: 0;
 }
 .genre-wrapper{
-    padding-bottom: 1rem;
+    margin: 1rem;
+
 }
 
 .synopsis-wrapper{
@@ -346,8 +348,6 @@ li {
         position: absolute;
         left: 50%;
         transform: translate(-50%);
-        width: 55%;
-        top: 6%;
         box-shadow:rgba(0, 0, 0, 0.4) 0px 10px 15px 10px;
     }
 
@@ -363,10 +363,7 @@ li {
         height: auto;
     }
 
-    .hero-poster{
-        top: 5%;
-        width: 28%;
-    }
+
 
     .hero-background{
         width: 100%;
