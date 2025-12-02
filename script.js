@@ -102,3 +102,14 @@ theatre.addEventListener('click', (e) => {
 
 populateUI();
 updateSelectedSeatCount();
+
+
+// Book tickets
+const buttons = document.querySelectorAll('.booking-date');
+
+buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+        buttons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+    });
+});

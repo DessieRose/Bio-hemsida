@@ -33,6 +33,19 @@
     padding: 0 5vw;
 }
 
+.booking-date {
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    margin: 1rem;
+    font-family: "Brawler", serif;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 1px 4px var(--orange);
+}
+
+.booking-date.active {
+    background-color: var(--orange);
+}
+
 @media screen and (min-width: 768px) {
     .booking-container {
         display: flex;
@@ -69,7 +82,18 @@
         width: 90%;
         margin: 0 auto 1rem;
     }
+
+    .booking-date {
+        cursor: pointer;
+    }
     
+    .booking-date:hover {
+        transform: scale(1.1);
+        background-color: var(--yeallow);
+        transition: 0.3s;
+
+    }
+
     .ticket-dates p {
         padding: 0 1.5vw 0 1.5vw;
         font-size: 1.2vw;
@@ -94,7 +118,7 @@
     color: var(--yeallow);
     align-items: center;
     justify-content: center;
-    height: 65vh;
+    height: 62vh;
     margin: 1.5rem;
 }
 
@@ -186,11 +210,21 @@ p.text span {
     color: var(--light-gray)
 }
 
+.button-section {
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    margin: 1rem;
+    font-family: "Brawler", serif;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 1px 4px var(--orange);
+}
+
 @media (min-width: 768px) {
     .booking {
         padding: 4rem;
         width: 50vw;
         margin: 0;
+        height: 65vh;
     }
     
     .theatre {
@@ -216,6 +250,17 @@ p.text span {
 
     p.text {
         font-size: 1.1rem;
+    }
+
+    .button-section {
+        cursor: pointer;
+    }
+
+    .button-section:hover {
+        transform: scale(1.1);
+        background-color: var(--yeallow);
+        transition: 0.3s;
+
     }
 
 }
