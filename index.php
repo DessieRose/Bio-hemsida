@@ -26,6 +26,7 @@ require_once __DIR__ . "/data.php";
         </div>
         <a class="see-more">See more</a>
     </section>
+    <?php require_once __DIR__ . '/offer-news.php';?>
     <section class="retro-runs">
         <h3>Retro Runs</h3>
         <div class="movies-container">
@@ -65,7 +66,7 @@ require_once __DIR__ . "/data.php";
         </div>
         <a class="see-more">See more</a>
     </section>
-
+<?php require_once __DIR__ . '/offer-news.php';?>
 </main>
 
 

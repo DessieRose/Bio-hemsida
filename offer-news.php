@@ -30,13 +30,13 @@
 
 <form>
     <div class="form-row">
-        <label for="Fullname">Fullname</label>
-        <input type="text" name="Fullname">
+        <label for="Fullname">Namn</label>
+        <input type="Name" id="fullname" name="fullname" placeholder="Skriv in ditt fullständiga namn">
     </div>
 
     <div class="form-row">
         <label for="Email">Email</label>
-        <input type="text" name="Email">
+        <input type="email" id="email" name="Email" placeholder="Skriv in din email">
     </div>
 
     <button type="submit">Submit</button>

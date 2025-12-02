@@ -1,7 +1,8 @@
 <body>
 
-    <footer>
-        <div class="boxfooter">
+ <footer>
+    <div class="boxfooter">
+        <div class="moreinfo">
             <div class="box1">
                 <h3>Our company</h3>
                 <ul>
@@ -39,6 +40,7 @@
                     </li>
                 </ul>
             </div>
+        </div>    
             <div class="box2">
                 <img src="components/logo.png" alt="The-big-scream logo">
 
@@ -49,11 +51,12 @@
                     <p class="terms">Terms & Conditions</p>
                     <p class="privacy">Privacy Policy</p>
                 </div>
+         </div>
+        
+     </div>
 
-            </div>
-
-    </footer>
-    <script src="script.js"></script>
+</footer>
+<script src="script.js"></script>
     <!-- <script src="movieseats.js"></script> -->
 </body>
 

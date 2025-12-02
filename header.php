@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./movieseats.css"> -->
     <link rel="stylesheet" href="./booking.css">
     <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./offer-news.css">
     <title>The Big Scream</title>
 </head>
 

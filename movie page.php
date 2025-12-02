@@ -74,7 +74,6 @@ foreach ($movies as $movie) {
 
     <?php require_once __DIR__ . '/booking.php'; ?>
 
-
 </main>
 </body>
 
