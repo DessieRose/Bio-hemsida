@@ -13,7 +13,7 @@ require_once __DIR__ . "/data.php";
             <?php foreach ($movies as $movie) { ?>
                 <div class="movie-container">
                     <a href="movie page.php">
-                        <img class="movieroll" src="./components/single movie frame.svg">
+                        <img class="movieroll" src="./components/single-movie-frame.svg">
                         <img class="poster" src="<?= $movie['poster'] ?>">
                         <div class="hidden-info">
                             <p class="hover-info"><?= $movie['hover-info'] ?></p>
@@ -26,7 +26,7 @@ require_once __DIR__ . "/data.php";
         </div>
         <a class="see-more">See more</a>
     </section>
-    
+
     <?php require_once __DIR__ . '/offer-news.php'; ?>
 
     <img class="background-filmroll top" src="./components/filmrulle-bakgrund.svg">
@@ -37,7 +37,7 @@ require_once __DIR__ . "/data.php";
             <?php foreach ($retroRuns as $retroRun) { ?>
                 <div class="movie-container">
                     <a href="movie page.php">
-                        <img class="movieroll" src="./components/single movie frame.svg">
+                        <img class="movieroll" src="./components/single-movie-frame.svg">
                         <img class="poster" src="<?= $retroRun['poster'] ?>">
                         <div class="hidden-info">
                             <p class="hover-info"><?= $retroRun['hover-info'] ?></p>
@@ -59,7 +59,7 @@ require_once __DIR__ . "/data.php";
             <?php foreach ($upcoming as $new) { ?>
                 <div class="movie-container">
                     <a href="movie page.php">
-                        <img class="movieroll" src="./components/single movie frame.svg">
+                        <img class="movieroll" src="./components/single-movie-frame.svg">
                         <img class="poster" src="<?= $new['poster'] ?>">
                         <div class="hidden-info">
                             <p class="hover-info"><?= $new['hover-info'] ?></p>
