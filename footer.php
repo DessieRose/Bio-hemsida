@@ -15,7 +15,7 @@
             <div class="box3">
                 <h3>More</h3>
                 <ul>
-                    <li><a href="Tickets.html">Buy tickets</a></li>
+                    <li><a href="./movie page.php#tickets">Buy tickets</a></li>
                     <li>Buy giftcard</li>
                     <li>Deals</li>
                     <li>Experiences</li>
@@ -27,22 +27,22 @@
                 <h3>Socials</h3>
                 <ul>
                     <li>
-                        <img src="components/icons/facebook.jpg" alt="The Big Scream">
+                        <img src="./components/icons/facebook.jpg" alt="The Big Scream">
                         <span>The Big Scream</span>
                     </li>
                     <li>
-                        <img src="components/icons/mail.jpg" alt="@thebigscream">
+                        <img src="./components/icons/mail.jpg" alt="@thebigscream">
                         <span>@thebigscream</span>
                     </li>
                     <li>
-                        <img src="components/icons/instagram.jpg" alt="The Big Scream">
+                        <img src="./components/icons/instagram.jpg" alt="The Big Scream">
                         <span>The Big Scream</span>
                     </li>
                 </ul>
             </div>
         </div>    
             <div class="box2">
-                <img src="components/logo.png" alt="The-big-scream logo">
+                <img src="./components/logo.png" alt="The-big-scream logo">
 
                 <div class="logo-line"></div>
 
@@ -56,7 +56,7 @@
      </div>
 
 </footer>
-<script src="script.js"></script>
+<script src="./script.js"></script>
     <!-- <script src="movieseats.js"></script> -->
 </body>
 

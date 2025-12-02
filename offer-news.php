@@ -5,7 +5,7 @@
 <section class="halloween-offer">
     <div class="offer-header">
         <div class="offer-sticker">
-            <img src="components/icons/offer_sticker_computer.png" alt="Halloween Offer">
+            <img src="./components/icons/offer_sticker_computer.png" alt="Halloween Offer">
         </div>
         <div class="offer-title">
             <h3>HALLOWEEN OFFER!</h3>

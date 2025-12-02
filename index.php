@@ -26,6 +26,7 @@ require_once __DIR__ . "/data.php";
         </div>
         <a class="see-more">See more</a>
     </section>
+    
     <?php require_once __DIR__ . '/offer-news.php'; ?>
 
     <img class="background-filmroll top" src="./components/filmrulle-bakgrund.svg">
