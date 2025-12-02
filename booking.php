@@ -16,7 +16,7 @@ $tomorrow = (new DateTime())->modify('+1 day');
         </div>
 
         <?php
-        for ($i = 0; $i < 6; $i++) { 
+        for ($i = 0; $i < 7; $i++) { 
 
         if ($date->format('Y-m-d') === $today->format('Y-m-d')) {
             $lable = 'Today';

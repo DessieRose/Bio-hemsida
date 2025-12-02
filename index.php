@@ -27,6 +27,9 @@ require_once __DIR__ . "/data.php";
         <a class="see-more">See more</a>
     </section>
     <?php require_once __DIR__ . '/offer-news.php';?>
+
+    <img class="background-filmroll top" src="./components/filmrulle-bakgrund.svg">
+
     <section class="retro-runs">
         <h3>Retro Runs</h3>
         <div class="movies-container">
@@ -46,6 +49,8 @@ require_once __DIR__ . "/data.php";
         </div>
         <a class="see-more">See more</a>
     </section>
+
+    <img class="background-filmroll bottom" src="./components/filmrulle-bakgrund.svg">
 
     <section class="upcoming" id="upcoming">
         <h3>Upcoming</h3>
