@@ -45,6 +45,7 @@ $movies = [
             "./media/trick/2.png",
             "./media/trick/3.png",
             "./media/trick/4.png",
+            "./media/trick/5.png",
         ]
     ],
     [
