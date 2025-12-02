@@ -171,17 +171,17 @@ li {
     display: flex;
     justify-content: center;
     object-fit: cover;
+    overflow: hidden;
 }
 
 .hero-poster{
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%);
-        width: 55%;
-        top: 6%;
-        box-shadow:rgba(0, 0, 0, 0.4) 0px 10px 15px 10px;
-
-    }
+    position: absolute;
+    left: 51%;
+    transform: translate(-50%);
+    width: 69%;
+    top: 7%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 15px 10px;
+}
 
 
 .trailer{
@@ -193,6 +193,7 @@ li {
 .movie-images{
     padding-top: 2rem;
     padding-bottom: 2rem;
+    overflow: hidden;
 }
 
 .picture-wrapper{
@@ -340,6 +341,15 @@ li {
         transform: rotate(-25deg);
         z-index: -20;
         opacity: 0.3;
+    }
+
+    .hero-poster{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 55%;
+        top: 6%;
+        box-shadow:rgba(0, 0, 0, 0.4) 0px 10px 15px 10px;
     }
 
     .top{

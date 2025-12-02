@@ -47,6 +47,7 @@
         /* margin: 0; */
         height: 65vh;
         /* padding-bottom: 0.3rem; */
+        overflow: hidden;
     }
     
     .tickets-top-border {
@@ -189,6 +190,7 @@ p.text span {
     .booking {
         padding: 4rem;
         width: 50vw;
+        margin: 0;
     }
     
     .theatre {
